@@ -1,9 +1,9 @@
-name: IPQ60XX-ALL
+name: IPQ60XX-ALL-ROC
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: 0 19 * * *
+    - cron: 0 19 * * 5
 
 env:
   REPO_URL: https://github.com/LiBwrt-op/openwrt-6.x.git
@@ -14,7 +14,7 @@ env:
   CACHE_TOOLCHAIN: true
   UPLOAD_BIN_DIR: false
   FIRMWARE_RELEASE: true
-  FIRMWARE_TAG: IPQ60XX-ALL
+  FIRMWARE_TAG: IPQ60XX-ALL-ROC
   TZ: Asia/Shanghai
 
 jobs:
