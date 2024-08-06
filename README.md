@@ -10,7 +10,7 @@
 
 ## 项目说明 [![](https://img.shields.io/badge/-项目基本介绍-FFFFFF.svg)](#项目说明-)
 - 固件默认管理地址：`192.168.1.1` 默认用户：`root` 默认密码：`无`
-- 源码来源：https://github.com/breeze303/openwrt-6.x.git 感谢breeze303
+- 源码来源：https://github.com/breeze303/openwrt-6.x.git 感谢大佬
 - 源码来源：https://github.com/openwrt-dev/openwrt-ipq60xx 感谢大佬
 - 源码来源: https://github.com/JiaY-shi/openwrt/tree/ipq60xx-devel_nss 感谢大佬
 - 云编译来源：https://github.com/haiibo/OpenWrt 感谢大佬
