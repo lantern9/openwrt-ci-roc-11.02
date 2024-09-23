@@ -167,7 +167,7 @@ jobs:
         body: |
           **This is OpenWrt Firmware for ${{ env.FIRMWARE_TAG }}**
           ### 📒 固件信息(带WIFI)
-          - 这是带WIFI以及NSS的6.6内核固件，默认主题为Argon；该固件整合了ImmortalWrt默认软件，添加了额外的软件包cpufreq，ddns，ttyd，upnp，wol，samba4，vlmcsd，aria2，autoreboot，uhttpd，fileassistant，wifischedule，frps，frpc，diskman，hd-idle，banip，acme，arpbind，usb-printer，并添加了若干工具，具体详见ipq60xx-all.config。日常作为主路由使用并未发现明显问题，欢迎下载测试！
+          - 这是带WIFI以及NSS的6.6内核固件，默认主题为Argon；该固件整合了ImmortalWrt默认软件，添加了额外的软件包cpufreq、ddns、ttyd、upnp、wol、samba4、vlmcsd、aria2、autoreboot、uhttpd、fileassistant、wifischedule、frps、frpc、diskman、hd-idle、banip、acme、arpbind、usb-printer、homeproxy，并添加了若干工具，具体详见ipq60xx-all.config。日常作为主路由使用并未发现明显问题，欢迎下载测试！
           - 💻 这是 ${{ env.FIRMWARE_TAG }} 平台使用的 OpenWrt 固件
           - ⚽ 固件源码: ${{ env.REPO_URL }}
           - 💝 源码分支: ${{ env.REPO_BRANCH }}
