@@ -1,6 +1,6 @@
 # 移除要替换的包
 rm -rf feeds/packages/lang/golang
-rm -rf feeds/alist
+rm -rf feeds/packages/net/alist
 
 # Alist
 git clone https://github.com/sbwml/packages_lang_golang -b 23.x feeds/packages/lang/golang
