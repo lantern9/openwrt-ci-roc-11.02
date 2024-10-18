@@ -9,8 +9,8 @@ env:
   REPO_URL: https://github.com/VIKINGYFY/immortalwrt.git
   # REPO_URL: https://github.com/LiBwrt-op/openwrt-6.x.git
   REPO_BRANCH: main
-  CONFIG_FILE: configs/ipq60xx-all.config
-  DIY_SCRIPT: alist-script.sh
+  CONFIG_FILE: configs/ipq60xx-all-test.config
+  DIY_SCRIPT: test-script.sh
   CLASH_KERNEL: amd64
   CACHE_TOOLCHAIN: true
   UPLOAD_BIN_DIR: false
