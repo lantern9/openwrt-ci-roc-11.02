@@ -9,7 +9,7 @@ env:
   REPO_URL: https://github.com/VIKINGYFY/immortalwrt.git
   # REPO_URL: https://github.com/LiBwrt-op/openwrt-6.x.git
   REPO_BRANCH: main
-  CONFIG_FILE: configs/ipq60xx-all-roc.config
+  CONFIG_FILE: configs/ipq60xx-all-bak.config
   DIY_SCRIPT: scripts/roc-script.sh
   CLASH_KERNEL: amd64
   CACHE_TOOLCHAIN: true
