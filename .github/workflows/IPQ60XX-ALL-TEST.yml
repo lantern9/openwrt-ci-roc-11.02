@@ -2,11 +2,11 @@ name: IPQ60XX-ALL-TEST
 
 on:
   workflow_dispatch:
-  # schedule:
-  #   - cron: 0 19 * * *
+  schedule:
+    - cron: 0 19 * * *
 
 env:
-  REPO_URL: https://github.com/ZqinKing/immortalwrt.git
+  REPO_URL: https://github.com/VIKINGYFY/immortalwrt.git
   # REPO_URL: https://github.com/LiBwrt-op/openwrt-6.x.git
   REPO_BRANCH: main
   CONFIG_FILE: configs/ipq60xx-all-roc.config
