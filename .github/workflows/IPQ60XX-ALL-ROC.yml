@@ -10,7 +10,7 @@ env:
   # REPO_URL: https://github.com/LiBwrt-op/openwrt-6.x.git
   REPO_BRANCH: main
   CONFIG_FILE: configs/ipq60xx-all-roc.config
-  DIY_SCRIPT: scripts/roc-script.sh
+  # DIY_SCRIPT: scripts/roc-script.sh
   CLASH_KERNEL: amd64
   CACHE_TOOLCHAIN: true
   UPLOAD_BIN_DIR: false
@@ -107,6 +107,7 @@ jobs:
     - name: Install Feeds(安装feeds)
       run: |
         cd $OPENWRT_PATH
+        sed -i '$a src-git smpackage https://github.com/kenzok8/small-package' feeds.conf.default
         ./scripts/feeds update -a
         ./scripts/feeds install -a
   
