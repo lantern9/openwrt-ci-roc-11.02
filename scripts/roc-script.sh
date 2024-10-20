@@ -11,7 +11,6 @@ rm -rf feeds/packages/net/adguardhome
 
 # 添加软件仓库
 sed -i '$a src-git smpackage https://github.com/kenzok8/small-package' feeds.conf.default
-git pull
 
 ./scripts/feeds update -a
 ./scripts/feeds install -a
