@@ -1,9 +1,9 @@
-name: IPQ60XX-ALL-BAK
+name: IPQ60XX-ALL-ROC
 
 on:
   workflow_dispatch:
-  # schedule:
-  #   - cron: 0 19 * * *
+  schedule:
+    - cron: 0 19 * * *
 
 env:
   REPO_URL: https://github.com/VIKINGYFY/immortalwrt.git
@@ -15,7 +15,7 @@ env:
   CACHE_TOOLCHAIN: true
   UPLOAD_BIN_DIR: false
   FIRMWARE_RELEASE: true
-  FIRMWARE_TAG: IPQ60XX-ALL-BAK
+  FIRMWARE_TAG: IPQ60XX-ALL-ROC
   TZ: Asia/Shanghai
 
 jobs:
