@@ -15,7 +15,7 @@ function git_sparse_clone() {
   cd .. && rm -rf $repodir
 }
 
-# Alist & Adguardhome & 集客无线AC控制器
+# Alist & AdGuardHome & 集客无线AC控制器
 git clone https://github.com/sbwml/luci-app-alist package/luci-app-alist
 git_sparse_clone main https://github.com/kenzok8/small-package luci-app-adguardhome
 git clone https://github.com/lwb1978/openwrt-gecoosac package/openwrt-gecoosac
