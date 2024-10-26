@@ -6,7 +6,7 @@ on:
   #   - cron: 0 19 * * *
 
 env:
-  REPO_URL: https://github.com/ZqinKing/immortalwrt.git
+  REPO_URL: https://github.com/laipeng668/immortalwrt-VIKINGYFY.git
   REPO_BRANCH: main
   CONFIG_FILE: configs/ipq60xx-all-bak.config
   DIY_SCRIPT: scripts/roc-script.sh
