@@ -3,7 +3,7 @@ name: IPQ60XX-ALL-BAK
 on:
   workflow_dispatch:
   # schedule:
-  #   - cron: 0 19 * * *
+  #   - cron: 0 20 * * *
 
 env:
   REPO_URL: https://github.com/laipeng668/immortalwrt-VIKINGYFY.git
