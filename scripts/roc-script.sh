@@ -1,7 +1,7 @@
 # 修改默认IP
 sed -i 's/192.168.1.1/192.168.2.1/g' package/base-files/files/bin/config_generate
 
-# 修改LED为绿色
+# 修改亚瑟LED为绿色
 sed -i 's/&status_blue/&status_green/g' target/linux/qualcommax/files/arch/arm64/boot/dts/qcom/ipq6018-jdcloud-ax1800-pro.dts
 
 # 移除要替换的包
